@@ -40,35 +40,38 @@ Reliable IT support, Microsoft 365, cloud solutions, and cybersecurity for small
     </div>
   </section>
 
-  <section class="section split-overview" aria-label="Theme overview">
+  <section class="section split-overview" aria-label="Services">
     <div>
-      <p class="eyebrow">Principles</p>
-      <h2>Readable first, decorative last.</h2>
+      <p class="eyebrow">Services</p>
+      <h2>Professional IT support tailored to small businesses.</h2>
     </div>
     <div class="feature-list">
       <article>
-        <h3>Baseline rhythm</h3>
-        <p>Vertical spacing follows a steady cadence for long-form reading.</p>
+        <h3>IT Support</h3>
+        <p>Responsive assistance for everyday IT issues, user management, devices, printers, networks, and ongoing technical support.</p>
       </article>
       <article>
-        <h3>Typed content</h3>
-        <p>Collections are prepared for project case studies and durable notes.</p>
+        <h3>Microsoft 365 & Cloud</h3>
+        <p>Secure Microsoft 365 setup, email migration, cloud storage, collaboration tools, and identity management.</p>
       </article>
       <article>
-        <h3>Keel lines</h3>
-        <p>Fine rules create structure without relying on decorative effects.</p>
+        <h3>Cybersecurity & Backups</h3>
+        <p>Protect your business with multi-factor authentication, endpoint security, reliable backups, and best-practice security measures.</p>
       </article>
     </div>
   </section>
 
-  <section class="section index-feed" aria-labelledby="latest-works">
+  <section class="section index-feed" aria-labelledby="why-itdudesolutions">
     <div class="section-heading">
-      <p class="eyebrow">Latest works</p>
-      <h2 id="latest-works">Built records.</h2>
-      <a class="text-link" href={withBase('/works/')}>All works</a>
+      <p class="eyebrow">Why ITDudeSolutions?</p>
+      <h2 id="latest-works">Simple IT</h2>
+      <!-- <a class="text-link" href={withBase('/works/')}>All works</a> -->
+    </div>
+    <div>
+      <p>Technology should help your business, not slow it down. IT Dude Solutions provides practical, reliable support with a focus on clear communication, dependable service, and long-term solutions that fit your business—not unnecessary complexity.</p>
     </div>
 
-    {
+    <!-- {
       works.length > 0 ? (
         <div class="highlight-grid">
           {works.map((work) => (
@@ -104,10 +107,20 @@ Reliable IT support, Microsoft 365, cloud solutions, and cybersecurity for small
           <p>Add works under <code>src/content/works</code> to surface the latest projects here.</p>
         </div>
       )
-    }
+    } -->
   </section>
 
-  <section class="section index-feed" aria-labelledby="latest-notes">
+<section class="section split-overview" aria-labelledby="service-area"> 
+  <div> 
+    <p class="eyebrow">Local & Remote</p> 
+    <h2 id="service-area">Supporting businesses throughout Regensburg.</h2> 
+  </div> 
+  <div> 
+    <p> Whether you need assistance with a single project or ongoing IT management, support is available both remotely and on-site throughout Regensburg and the surrounding region. </p> 
+  </div> 
+  </section>
+
+  <!-- <section class="section index-feed" aria-labelledby="latest-notes">
     <div class="section-heading">
       <p class="eyebrow">Latest blog</p>
       <h2 id="latest-notes">Field notes.</h2>
@@ -144,5 +157,5 @@ Reliable IT support, Microsoft 365, cloud solutions, and cybersecurity for small
         </div>
       )
     }
-  </section>
+  </section> -->
 </BaseLayout>
