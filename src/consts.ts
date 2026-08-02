@@ -5,13 +5,13 @@ export const SITE = {
   /** Site name — used in the header brand, <title>, and og:site_name. */
   title: 'IT Dude Solutions',
   /** Default meta description for pages that don't set their own. */
-  description: 'A minimal, neutral, and modern portfolio and blog theme for Astro.',
+  description: 'Reliable IT support, Microsoft 365, cloud solutions, and cybersecurity for small businesses in Regensburg and the surrounding area.',
   /** Description of the RSS feed at /rss.xml. */
-  rssDescription: 'Notes, essays, and release logs from Astro Keel.',
+  rssDescription: 'Reliable IT support, Microsoft 365, cloud solutions, and cybersecurity for small businesses in Regensburg and the surrounding area.',
   /** Default social share image, relative to the site root (see public/). */
   ogImage: '/og.jpg',
   /** Footer credit line. */
-  footerText: 'Built with Astro Keel.',
+  footerText: 'ITDudeSolutions 2026',
 } as const;
 
 /** Header navigation. `href` is relative to the site root; the configured
@@ -19,7 +19,7 @@ export const SITE = {
 export const NAV_ITEMS = [
   { href: '/', label: 'Home' },
   { href: '/about/', label: 'About' },
-  { href: '/works/', label: 'Works' },
-  { href: '/blog/', label: 'Blog' },
+  // { href: '/works/', label: 'Works' },
+  // { href: '/blog/', label: 'Blog' },
   { href: '/search/', label: 'Search' },
 ] as const;
