@@ -9,9 +9,9 @@ export const SITE = {
   /** Description of the RSS feed at /rss.xml. */
   rssDescription: 'Reliable IT support, Microsoft 365, cloud solutions, and cybersecurity for small businesses in Regensburg and the surrounding area.',
   /** Default social share image, relative to the site root (see public/). */
-  ogImage: '/og.jpg',
+  ogImage: '/og.png',
   /** Footer credit line. */
-  footerText: 'ITDudeSolutions 2026',
+  footerText: '2026 ITDudeSolutions ',
 } as const;
 
 /** Header navigation. `href` is relative to the site root; the configured
