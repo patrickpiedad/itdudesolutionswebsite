@@ -1,0 +1,11 @@
+[[redirects]]
+  from = "https://itdudesolutions.com/*"
+  to = "https://itdudesolutions.de/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.itdudesolutions.com/*"
+  to = "https://itdudesolutions.de/:splat"
+  status = 301
+  force = true
