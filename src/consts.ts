@@ -22,5 +22,5 @@ export const NAV_ITEMS = [
   // { href: '/works/', label: 'Works' },
   // { href: '/blog/', label: 'Blog' },
   { href: '/contact/', label: 'Contact Us' },
-  { href: '/search/', label: 'Search' },
+  // { href: '/search/', label: 'Search' },
 ] as const;
